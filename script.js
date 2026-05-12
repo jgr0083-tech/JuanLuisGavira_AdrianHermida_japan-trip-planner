@@ -91,6 +91,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>Shinkansen from Tokyo takes about 4 hours. Local trains and ferries to Miyajima. Hiroshima Airport for international flights.</p>
                 <p><strong>Best time to visit:</strong> Spring (March-May) or Autumn (September-November) for comfortable weather and fewer crowds.</p>
             `
+        },
+        // New Nara itinerary 
+        nara: {
+            title: 'Nara Itinerary',
+            content: `
+                <p><strong>Overview:</strong> Nara is famous for its historic temples and friendly deer.</p>
+
+                <h3>Top Attractions:</h3>
+                <ul>
+                    <li>Todai-ji Temple</li>
+                    <li>Nara Park</li>
+                    <li>Kasuga Taisha Shrine</li>
+                    <li>Isuien Garden</li>
+                </ul>
+
+                <p><strong>Best time to visit:</strong> Spring and autumn.</p>
+            `
         }
     };
 
