@@ -1,3 +1,4 @@
+/* General page styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     color: #333;
 }
 
+/* Header section styling */
 header {
     background-color: #bc002d;
     color: white;
@@ -13,10 +15,12 @@ header {
     padding: 20px;
 }
 
+/* Main title styling */
 h1 {
     margin: 0;
 }
 
+/* Main content layout and styling */
 main {
     display: flex;
     flex-direction: column;
@@ -24,26 +28,31 @@ main {
     padding: 20px;
 }
 
+/* Map container styling */
 #map-container {
     margin-bottom: 20px;
     text-align: center;
 }
 
+/* Japan map image styling */
 #japan-map {
     border: 2px solid #bc002d;
     max-width: 100%;
     height: auto;
 }
 
+/* Legend section styling */
 #legend {
     margin-top: 20px;
 }
 
+/* Legend title styling */
 #legend h3 {
     color: #bc002d;
     margin-bottom: 10px;
 }
 
+/* City button styling */
 .city {
     background-color: #bc002d;
     color: white;
@@ -53,13 +62,17 @@ main {
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
+
+    /* Smooth color transition when hovering */
     transition: background-color 0.3s;
 }
 
+/* Hover effect for city buttons */
 .city:hover {
     background-color: #a80026;
 }
 
+/* Itinerary information box */
 #itinerary {
     width: 80%;
     max-width: 800px;
@@ -70,14 +83,17 @@ main {
     border: 1px solid #bc002d;
 }
 
+/* City title color */
 #city-title {
     color: #bc002d;
 }
 
+/* Space above the itinerary content */
 #city-content {
     margin-top: 10px;
 }
 
+/* Bullet list styling */
 ul {
     list-style-type: disc;
     margin-left: 20px;
