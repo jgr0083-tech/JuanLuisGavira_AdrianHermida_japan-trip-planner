@@ -7,15 +7,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Main page header -->
     <header>
         <h1>Prepare Your Trip to Japan</h1>
+
+        <!-- Short project description -->
         <p>Explore Japan's most famous cities and plan your itinerary. Click on a city on the map to view details.</p>
     </header>
     <main>
+
+        <!-- Container for the map and buttons -->
+
         <div id="map-container">
+
+            <!-- Image of the map -->
+
             <img src="japónMapa.jpg" alt="Map of Japan" id="japan-map">
+            
+            <!-- Section with city buttons -->
+            
             <div id="legend">
                 <h3>Click on a city to view its itinerary:</h3>
+                
+                <!-- Each button represents a city -->
+                
                 <button class="city" id="tokyo">Tokyo</button>
                 <button class="city" id="kyoto">Kyoto</button>
                 <button class="city" id="osaka">Osaka</button>
@@ -26,13 +41,25 @@
 
             </div>
         </div>
+
+        <!-- Section where the itinerary details will be displayed -->
+
         <div id="itinerary">
+
+            <!-- Dynamic title update with JavaScript -->
+
             <h2 id="city-title">Select a City</h2>
+
+            <!-- Dynamic content update with JavaScript -->
+
             <div id="city-content">
                 <p>Click on a city on the map to view its itinerary and things to do.</p>
             </div>
         </div>
     </main>
+
+    <!-- Connects the HTML with the JavaScript file -->
+
     <script src="script.js"></script>
 </body>
 </html>
