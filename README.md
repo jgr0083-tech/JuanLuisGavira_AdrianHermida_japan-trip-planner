@@ -116,6 +116,6 @@ The project fulfills all requirements of the assignment while maintaining clarit
 
 ---
 
-https://jgr0083-tech.github.io/JuanLuisGavira_AdrianHermida_japan-trip-planner/
+Pages -> https://jgr0083-tech.github.io/JuanLuisGavira_AdrianHermida_japan-trip-planner/
 
 Canva -> https://canva.link/0wtb10dgw989muz
