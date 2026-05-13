@@ -72,3 +72,5 @@ Creating and switching branches
 Merging the feature-update branch into main
 Pushing the project to GitHub
 Deploying through GitHub Pages
+
+https://jgr0083-tech.github.io/JuanLuisGavira_AdrianHermida_japan-trip-planner/
