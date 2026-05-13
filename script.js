@@ -1,9 +1,18 @@
+
+
 document.addEventListener('DOMContentLoaded', function() {
+
+    // Select all buttons with the class 'city'
     const cities = document.querySelectorAll('.city');
+    // Gets the title section where the city name will appear
     const cityTitle = document.getElementById('city-title');
+    // Gets the content section where the itinerary information will apear
     const cityContent = document.getElementById('city-content');
 
+    // Object containing itinerary information for each city
     const itineraries = {
+
+        // Itinerary for Tokyo
         tokyo: {
             title: 'Tokyo Itinerary',
             content: `
@@ -26,6 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p><strong>Best time to visit:</strong> Spring (March-May) for cherry blossoms or Autumn (September-November) for fall foliage. Avoid humid summers.</p>
             `
         },
+
+        // Itinerary for Kyoto
         kyoto: {
             title: 'Kyoto Itinerary',
             content: `
@@ -48,6 +59,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p><strong>Best time to visit:</strong> Spring (April) for cherry blossoms or Autumn (October-November) for vibrant maple leaves.</p>
             `
         },
+
+        // Itinerary for Osaka
         osaka: {
             title: 'Osaka Itinerary',
             content: `
@@ -70,6 +83,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p><strong>Best time to visit:</strong> Year-round, but summer (July-August) for festivals like Tenjin Matsuri, or spring for milder weather.</p>
             `
         },
+        
+        // Itinerary for Hiroshima
         hiroshima: {
             title: 'Hiroshima Itinerary',
             content: `
@@ -111,13 +126,26 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
+    // Adds a click event to every city button
     cities.forEach(city => {
         city.addEventListener('click', function(event) {
+
+            // Prevents default button behavior
             event.preventDefault();
+
+            // Gets the id of the clicked button
             const cityId = this.id;
+
+            // Finds the corresponding itinerary object
             const itinerary = itineraries[cityId];
+
+            // If the itinerary exits, update the page content
             if (itinerary) {
+
+                // Changes the title
                 cityTitle.textContent = itinerary.title;
+
+                // Inserts the HTML content dynamically
                 cityContent.innerHTML = itinerary.content;
             }
         });
